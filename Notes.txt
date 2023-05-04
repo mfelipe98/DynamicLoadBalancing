@@ -1,0 +1,7 @@
+Notes:
+
+This contains a simulation for the results of DLB, measuring the weight assigned to each of 10 super peers within the group.
+
+This can be run directly from the DLB class.
+
+There are 2 output files: individuals.txt contains 10 simulations (which make the 10 rows) with each column in the row representing the weight assigned to one super peer. To vary the number of concurrent requests, the input variable "requests" must simply be changed. Also, totals.txt sums up the weight assigned to each super peer, simply as an extra check that the simulation is running properly.
